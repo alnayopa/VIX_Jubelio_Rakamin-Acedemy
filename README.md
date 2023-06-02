@@ -20,7 +20,7 @@ Pada tugas pertama ini, mempersiapkan database yang akan digunakan untuk pengola
 ## 2. Membuat Table Laporan Khusus Quartal ke 3 dan 4
 1. Membuat Enity Relationship Diagram (ERD), hal ini dilakukan agar memahami relasi antar tabel sehingga memudahkan ketika ingin melakukan join. File postgreSQL dalam pembuat ERD dapat di lihat pada repository dengan nama `01.ERD.pgerd`
 2. Membuat Tabel baru Q3_Q4_Review, dengan ketentuan : 
-a. Minimal pada table terdapat kolom : purchase_date, total_price, promo_code, 
+ Minimal pada table terdapat kolom : purchase_date, total_price, promo_code, 
 b. Ambil hanya transaksi sales yang berada pada bulan 1 July – 31 December 2022.
 c. Untuk mendapatkan total_price : quantity * price  dan price_after_promo : total_price – deduction 
 Pada proses pengerjaan query dapat dilihat pada repository dengan nama `03. q3_q4_review_query.sql`

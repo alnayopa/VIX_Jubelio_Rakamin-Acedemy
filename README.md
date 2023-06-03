@@ -20,9 +20,9 @@ Pada tugas pertama ini, mempersiapkan database yang akan digunakan untuk pengola
 ## 2. Membuat Table Laporan Khusus Quartal ke 3 dan 4
 1. Membuat Enity Relationship Diagram (ERD), hal ini dilakukan agar memahami relasi antar tabel sehingga memudahkan ketika ingin melakukan join. File postgreSQL dalam pembuat ERD dapat di lihat pada repository dengan nama `01.ERD.pgerd`
 2. Membuat Tabel baru Q3_Q4_Review, dengan ketentuan : 
- Minimal pada table terdapat kolom : purchase_date, total_price, promo_code, 
-b. Ambil hanya transaksi sales yang berada pada bulan 1 July – 31 December 2022.
-c. Untuk mendapatkan total_price : quantity * price  dan price_after_promo : total_price – deduction 
+* Minimal pada table terdapat kolom : purchase_date, total_price, promo_code, 
+* Ambil hanya transaksi sales yang berada pada bulan 1 July – 31 December 2022.
+* Untuk mendapatkan total_price : quantity * price  dan price_after_promo : total_price – deduction 
 Pada proses pengerjaan query dapat dilihat pada repository dengan nama `03. q3_q4_review_query.sql`
 
 ## 3. Melakukan Summary dan Visualisasi dari Hasil Data Table Quartal ke 3 dan 4. 
@@ -33,10 +33,10 @@ Pada proses pengerjaan query dapat dilihat pada repository dengan nama `04.pivot
 
 ## 4.  Membuat Shipping Label Khusus Bulan December.
 1. Membuat Shipping_summary Desember di PostgreSQL. Dengan ketentuan : Ketentuan untuk Shipping Summary :
-a. Minimal terdapat kolom : shipping_date, seller_name, buyer_name, buyer_address, buyer_city, buyer_zipcode dan kode resi.
-b. Untuk mendapatkan seller_name (JOIN shipping_table ke table seller_table), untuk mendapatkan buyer_name, buyer_address, 
+* Minimal terdapat kolom : shipping_date, seller_name, buyer_name, buyer_address, buyer_city, buyer_zipcode dan kode resi.
+* Untuk mendapatkan seller_name (JOIN shipping_table ke table seller_table), untuk mendapatkan buyer_name, buyer_address, 
 buyer_city, buyer_zipcode (JOIN shipping_table ke table buyer_table)
-c. Kolom kode resi Berisi CONCAT dari kolom (shipping_id – purchase_date - shipping_date – buyer_id – seller_id) Gunakan format (“YYYYMMDD”) untuk kolom Resi
+* Kolom kode resi Berisi CONCAT dari kolom (shipping_id – purchase_date - shipping_date – buyer_id – seller_id) Gunakan format (“YYYYMMDD”) untuk kolom Resi
 
-3.Kemudian lakukan Export pada shipping_sumary dan Buatlah Label Shipping dengan Layout ǽ Across dan Ȁ Down. Dengan urutan Format : buyer_name, buyer_address, buyer_city, buyer_zipcode, dan kode
+2. Kemudian lakukan Export pada shipping_sumary dan Buatlah Label Shipping dengan Layout ǽ Across dan Ȁ Down. Dengan urutan Format : buyer_name, buyer_address, buyer_city, buyer_zipcode, dan kode
 Pada proses pengerjaan query dapat dilihat pada repository denga`05. labelshipping_koderesi`

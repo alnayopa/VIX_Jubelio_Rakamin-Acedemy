@@ -38,5 +38,4 @@ Pada proses pengerjaan query dapat dilihat pada repository dengan nama `04.pivot
 buyer_city, buyer_zipcode (JOIN shipping_table ke table buyer_table)
 * Kolom kode resi Berisi CONCAT dari kolom (shipping_id – purchase_date - shipping_date – buyer_id – seller_id) Gunakan format (“YYYYMMDD”) untuk kolom Resi
 
-2. Kemudian lakukan Export pada shipping_sumary dan Buatlah Label Shipping dengan Layout ǽ Across dan Ȁ Down. Dengan urutan Format : buyer_name, buyer_address, buyer_city, buyer_zipcode, dan kode
-Pada proses pengerjaan query dapat dilihat pada repository denga`05. labelshipping_koderesi`
+2. Kemudian lakukan Export pada shipping_sumary dan Buatlah Label Shipping dengan Layout 2 Across dan 5 Down. Dengan urutan Format : buyer_name, buyer_address, buyer_city, buyer_zipcode, dan kode Resi. Pada proses pengerjaan query dapat dilihat pada repository dengan nama `05. labelshipping_koderesi.sql` dan file excel di `06.label shipping.docx`

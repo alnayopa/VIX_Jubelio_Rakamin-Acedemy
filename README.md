@@ -29,7 +29,7 @@ Pada proses pengerjaan query dapat dilihat pada repository dengan nama `03. q3_q
 Dalam tugas ketiga ini hasil dari query pada tugas 2 di export dan di simpan. Lalu dengan menggunakan pivot table buat visualisasi  `Trend Aktivitas total 
 penjualan Bulanan setelah terpotong promo` dan `Trend Bulanan perbandingan 
 Jumlah Rasio penggunaan promo dan yang tidak menggunakan promo`
-Pada proses pengerjaan query dapat dilihat pada repository dengan nama `04.pivot_table_q3_q4_review.xlsx`
+
 
 ## 4.  Membuat Shipping Label Khusus Bulan December.
 1. Membuat Shipping_summary Desember di PostgreSQL. Dengan ketentuan : Ketentuan untuk Shipping Summary :
@@ -38,4 +38,4 @@ Pada proses pengerjaan query dapat dilihat pada repository dengan nama `04.pivot
 buyer_city, buyer_zipcode (JOIN shipping_table ke table buyer_table)
 * Kolom kode resi Berisi CONCAT dari kolom (shipping_id – purchase_date - shipping_date – buyer_id – seller_id) Gunakan format (“YYYYMMDD”) untuk kolom Resi
 
-2. Kemudian lakukan Export pada shipping_sumary dan Buatlah Label Shipping dengan Layout 2 Across dan 5 Down. Dengan urutan Format : buyer_name, buyer_address, buyer_city, buyer_zipcode, dan kode Resi. Pada proses pengerjaan query dapat dilihat pada repository dengan nama `05. labelshipping_koderesi.sql`, file excel di `06.label shipping.docx` dan file `07.shipping_sumarry.csv`
+2. Kemudian lakukan Export pada shipping_sumary dan Buatlah Label Shipping dengan Layout 2 Across dan 5 Down. Dengan urutan Format : buyer_name, buyer_address, buyer_city, buyer_zipcode, dan kode Resi. 
